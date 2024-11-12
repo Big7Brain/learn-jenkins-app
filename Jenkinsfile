@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('build') {
+        stage('test') {
             agent{
                 docker{
                    image "node:18-alpine" 
